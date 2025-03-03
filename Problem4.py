@@ -17,8 +17,8 @@ def main():
         if product > palindrome:
           palindrome = product
 
-      num2 += 1
-    num1 += 1
+      num2 = num2 + 1
+    num1 = num1 + 1
 
   print(palindrome)
 
